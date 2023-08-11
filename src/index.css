@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Translate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 12px;
+    padding: 0 28px 20px;
+    background: rgba(0, 0, 0, 0.907);
+    transition: transform 1s ease;
+}
+.translate-down{
+    transform: translateX(50px);
+}
+
+
