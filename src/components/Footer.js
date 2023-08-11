@@ -26,6 +26,7 @@ const Footer = () => {
             </span>
         </div>
         <p className='capitalize text-black'>copyright &copy; 2023. all right reserved</p>
+        <p className='capitalize text-black'>Designed by osmondcode</p>
     </div>
   )
 }
