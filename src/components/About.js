@@ -29,8 +29,8 @@ const About = () => {
             <hr className='w-[33%] border-[px] border-orange-400 h-[1px]'/>
           </div>
           <h1 className='md:text-[2.6vw] sm:text-[4.7vw] text-[5.9vw] leading-[48px] font-bold capitalize'>we're cleaning since 2017</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente repellendus et quae porro esse aliquam dignissimos vero hic, maxime exercitationem,</p>
-          <p> architecto, deleniti voluptatibus ea illum delectus praesentium perferendis maiores sapiente vel sunt et quam porro itaque! Consequatur repellat, </p>
+          <p>We provide specialized cleaning and janitorial services for all types and sizes of buildings. Our professional cleaning services span from residential homes, from small to large offices and commercial/ event centres to industrial. </p>
+          <p>Warehouse and retail locations and centres, Our cleaning services in Nigeria spans across major cities (Victoria Island, Lekki, Ikeja, Ikoyi, Port Harcourt, Ibadan, Benin City, Abuja e.t.c) and major states (Lagos, FCT, Rivers, Oyo Edoe.t.c.).</p>
         </span>
     </section>
   )
