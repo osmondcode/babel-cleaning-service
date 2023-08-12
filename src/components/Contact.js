@@ -47,7 +47,7 @@ const Contact = () => {
                     </span>
                     <span>
                         <h2 className='2sm:text-[22px] text-[18px] leading-5 font-bold capitalize mb-1'>address</h2>
-                        <p className='capitalize 2sm:text-[18px] text-[14px] text-slate-200'>Block-a sec-75, saritha viter, new delhi</p>
+                        <p className='capitalize 2sm:text-[18px] text-[14px] text-slate-200'>Ekpoma, edo state nigeria</p>
                     </span>
                 </div>
                 <div className='w-full flex items-center justify-start border-b-[1px] border-slate-300 pb-4 my-4'>
@@ -58,7 +58,7 @@ const Contact = () => {
                     </span>
                     <span>
                         <h2 className='2sm:text-[22px] text-[18px] leading-5 font-bold capitalize mb-1'>call us</h2>
-                        <p className='capitalize 2sm:text-[18px] text-[14px] text-slate-200'>234 (0) 903 3811 434</p>
+                        <p className='capitalize 2sm:text-[18px] text-[14px] text-slate-200'>234 (0) 701 9661 912</p>
                     </span>
                 </div>
                 <div className='w-full flex items-center justify-start pb-4'>
@@ -69,7 +69,7 @@ const Contact = () => {
                     </span>
                     <span>
                         <h2 className='2sm:text-[22px] text-[18px] leading-5 font-bold capitalize mb-1'>email us</h2>
-                        <p className='capitalize 2sm:text-[18px] text-[14px] text-slate-200'>info@gmail.com</p>
+                        <p className='2sm:text-[18px] text-[14px] text-slate-200'>tracyugbodaga@gmail.com</p>
                     </span>
                 </div>
             </span>

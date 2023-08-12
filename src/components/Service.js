@@ -3,8 +3,6 @@ import carpet from "./image/carpet cleaning.jpg";
 import window from "./image/window cleaning.jpg";
 import bathroom from "./image/bathroom cleaning.jpg";
 import furniture from "./image/furniture cleaning.jpg";
-import car from "./image/car cleaning.jpg";
-import laundry from "./image/laundry.jpg";
 import AOS from "aos";
 import 'aos/dist/aos.css'
 
@@ -45,18 +43,6 @@ const Service = () => {
                     <img src={furniture} alt='furniture' className='w-full h-full hover:scale-[1.03] flex items-center justify-center duration-500'/>
                 </span>
                 <h3 className='capitalize text-[18px] font-medium mt-2'>furniture cleaning</h3>
-            </span>
-            <span className='w-[180px] flex flex-col items-center justify-center gap-3 m-[20px]' data-aos='zoom-in'>
-                <span className='2sm:w-[160px] w-[140px] 2sm:h-[160px] h-[140px] rounded-full border-[5px] hover:border-0 border-white flex items-center justify-center cursor-pointer overflow-hidden duration-500'>
-                    <img src={car} alt='car' className='w-full h-full hover:scale-[1.03] flex items-center justify-center duration-500'/>
-                </span>
-                <h3 className='capitalize text-[18px] font-medium mt-2'>car cleaning</h3>
-            </span>
-            <span className='w-[180px] flex flex-col items-center justify-center gap-3 m-[20px]' data-aos='zoom-in'>
-                <span className='2sm:w-[160px] w-[140px] 2sm:h-[160px] h-[140px] rounded-full border-[5px] hover:border-0 border-white flex items-center justify-center cursor-pointer overflow-hidden duration-500'>
-                    <img src={laundry} alt='laundry' className='w-full h-full hover:scale-[1.03] flex items-center justify-center duration-500'/>
-                </span>
-                <h3 className='capitalize text-[18px] font-medium mt-2'>laundry</h3>
             </span>
         </div>
     </section>

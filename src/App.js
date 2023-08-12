@@ -4,8 +4,7 @@ import Banner from "./components/Home";
 import BannerII from "./components/About";
 import BannerIII from "./components/Service";
 import BannerIV from "./components/pricing";
-import BannerV from "./components/Team";
-import BannerVI from "./components/Contact";
+import BannerV from "./components/Contact";
 import Footer from "./components/Footer";
 import SideBar from "./components/sideBar";
 import { useState } from 'react';
@@ -30,7 +29,6 @@ function App() {
       <BannerIII/>
       <BannerIV/>
       <BannerV/>
-      <BannerVI/>
       <Footer/>
     </div>
   );
