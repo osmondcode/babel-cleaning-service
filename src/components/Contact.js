@@ -11,7 +11,6 @@ const Contact = () => {
     const [subBtn, setSubBtn] = useState(<button type='submit' className='capitalize 2sm:w-fit w-full px-5 mt-2 font-bold py-2 rounded-3xl bg-orange-400 text-black'>send message</button>)
 
     const sendEmail = (e) => {
-      e.preventDefault();
   
       emailjs.sendForm('service_48vlm84', 'template_ziujsjo', form.current, 'TSWkCyKGt6hPUK9rH')
         .then((result) => {
