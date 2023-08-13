@@ -5,10 +5,9 @@ const header = ({handleSwitch, sideBar}) => {
   return (
     <nav className='w-full h-[12vh] sticky top-0 left-0 bg-black z-50 flex items-center justify-between  lg:px-[10%] px-[5%]'>
         <a href='#' className='w-fit flex flex-col'>
-            <p className='text-[1.8rem] font-bold uppercase text-orange-400 leading-[18px] text-justify'>babels</p>
-            <p className='uppercase text-[13px]'>cleaning service</p>
+            <p className='text-[1.3rem] font-extrabold uppercase text-orange-400 leading-[18px] text-justify'>cy cleaning</p>
+            <p className='uppercase text-[18px] service font-bold'>service</p>
         </a>
-
         <button className='flex md:hidden p-1 border-[0.5px] border-white rounded-md text-[1.2rem]' onClick={handleSwitch}>
           {sideBar ? <FaTimes/> : <FaBars/>}
         </button>

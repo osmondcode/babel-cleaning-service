@@ -12,7 +12,7 @@ const Service = () => {
         AOS.init({duration: 1500})
       }, [])
   return (
-    <section className='w-full min-h-[88vh] flex flex-col items-center justify-start md:pt-0 pt-[15vh] mb-[8vh]  lg:px-[10%] px-[5%]' id='service' data-aos='zoom-in'>
+    <section className='w-full min-h-[68vh] flex flex-col items-center justify-start md:pt-0 pt-[15vh] mb-[8vh]  lg:px-[10%] px-[5%]' id='service' data-aos='zoom-in'>
         <div className='2sm:w-[85%] w-full flex items-center justify-center gap-[15px] mb-5'>
             <hr className='sm:w-[8%] 2sm:w-[20%] w-[33%] border-[0.5px] border-orange-400'/>
             <h2 className='font-bold text-orange-400 text-[22px]'>Services</h2>
